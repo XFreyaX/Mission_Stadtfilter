@@ -21,7 +21,6 @@
             tt = t.text();
             for (i = 0; i < forbidden_places.length; i++) {
                 if (tt.indexOf(forbidden_places[i]) >= 0) {
-                    console.log(tt);
                     t.css('display', 'none');
                 } else {
                 }
